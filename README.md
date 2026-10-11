@@ -12,6 +12,12 @@ table size). `pgtop` in this same workspace watches *current activity*;
 this watches the thing that quietly rots in the background if nothing's
 watching it — table bloat from autovacuum falling behind.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
